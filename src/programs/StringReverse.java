@@ -16,8 +16,10 @@ public class StringReverse {
         original = in.nextLine();
         int length = original.length();
         
-        for(int i=length-1;i>=0; i--) {
-            reverse = reverse + original.charAt(i);   //used inbuilt method charAt() to reverse the string
+        for(int i=0;i<length; i++) {
+        	
+        	char ch =  original.charAt(i);
+            reverse = ch + reverse;   //used inbuilt method charAt() to reverse the string
         }
         System.out.println(reverse);
     }
