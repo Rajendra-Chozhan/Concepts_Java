@@ -9,6 +9,7 @@ public class Employee {
 	
 	
 	
+	
 	public String getName() {
 		return name;
 	}
@@ -27,5 +28,12 @@ public class Employee {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
+	
+	
+	
+		
+	
+	
+
 	
 }

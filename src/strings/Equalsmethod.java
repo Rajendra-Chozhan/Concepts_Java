@@ -1,5 +1,7 @@
 package strings;
 
+import encapsulation.Employee;
+
 public class Equalsmethod {
 
 	public static void main(String[] args)
@@ -12,5 +14,8 @@ public class Equalsmethod {
      System.out.println(s1 == s3); // false
      System.out.println(s1.equals(s2)); // true
      System.out.println(s1.equals(s3)); // true
+     
+     
+ 
 }
 }

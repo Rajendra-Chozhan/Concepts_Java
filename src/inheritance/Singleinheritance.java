@@ -5,13 +5,13 @@ package inheritance;
 
 class Animal{  
 void eat(){
-System.out.println("eating...");
+System.out.println("Animal is Eating...");
 }  
 }  
 
 class Dog extends Animal{  
 void bark(){
-System.out.println("barking...");
+System.out.println("Dog is barking...");
 }  
 } 
 
@@ -19,6 +19,8 @@ System.out.println("barking...");
 class Singleinheritance{  
 public static void main(String args[]){  
 Dog d=new Dog();  
-d.bark();  
-d.eat();  
-}}  
+Animal a  = new Animal();
+a.eat();
+
+d.bark();
+d.eat();}}  

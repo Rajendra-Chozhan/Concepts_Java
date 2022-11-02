@@ -12,11 +12,11 @@ public class SwapTwoNumbers {
         
         x = in.nextInt();
         y = in.nextInt();
-        System.out.println("Before Swapping" + x + y);
-        temp = x;
+        System.out.println("Before Swapping " +  x + " " + y);
+        temp = x; 
         x = y;
         y = temp;
-        System.out.println("After Swapping" + x + y);
+        System.out.println("After Swapping " +  x +" "  +  y);
 	}
 
 }

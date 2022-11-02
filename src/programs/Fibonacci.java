@@ -1,5 +1,6 @@
 package programs;
 
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Fibonacci {
@@ -18,10 +19,29 @@ public class Fibonacci {
         num = in.nextInt();
         System.out.println("Fibonacci Series of the number is:");
         for (int i=0; i<num; i++) {
+        	
             a = b;
             b = c;
             c = a+b;
-            System.out.println(a + "");    
+            System.out.println(a + ""); 
+            
+            
+            
+            
+            
+            
+            
+         
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
 	}
 

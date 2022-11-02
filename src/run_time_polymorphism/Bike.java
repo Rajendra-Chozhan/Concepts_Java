@@ -16,7 +16,7 @@ class Vehicle{
 	  b.run();  
 	  
 	  
-	  Vehicle b1 = new Vehicle();
-	  b1.run();
+	  Vehicle v = new Vehicle();
+	  v.run();
 	  }  
 	}  

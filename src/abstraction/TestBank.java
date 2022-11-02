@@ -1,6 +1,7 @@
 package abstraction;
 
-abstract class Bank{    
+abstract class Bank{  
+	
 abstract int getRateOfInterest();    
 }   
 
@@ -16,7 +17,8 @@ int getRateOfInterest(){return 8;}
 }    
     
 class TestBank{    
-public static void main(String args[]){    
+public static void main(String args[]){ 
+	
 Bank b;  
 b=new SBI();  
 System.out.println("Rate of Interest is: "+b.getRateOfInterest()+" %");    

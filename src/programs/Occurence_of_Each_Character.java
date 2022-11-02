@@ -17,12 +17,11 @@ public static void main(String args[]) {
 	
 	// convert string to character array
 	
-	char[] c = str.toCharArray();
 	
 	HashMap <Character,Integer> hp = new HashMap<>();
 	
 	for (int i=0;i<str.length();i++) {
-		
+		char[] c = str.toCharArray();
 		
 		if(hp.containsKey(c[i]))
 			

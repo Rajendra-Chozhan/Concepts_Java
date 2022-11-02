@@ -6,9 +6,14 @@ import java.util.Iterator;
 public class ArraylistDemo {
 	
 	public static void main(String args[]){  
-		ArrayList<String> list=new ArrayList<String>();//Creating arraylist  
+		
+		
+		ArrayList<String> list=new ArrayList<String>(); //Creating arraylist  
 		
 		ArrayList list1 =new ArrayList();
+		
+		
+		
 		list.add("Ravi");  //0
 		list.add("Vijay");   //1
 		
@@ -58,7 +63,7 @@ public class ArraylistDemo {
 	
 	System.out.println("====================================");
 //Iterating with Enhanced For loop
-System.out.println("Iterating with Enhanced For loop");
+System.out.println("Iterating with Enhanced Forloop");
 	for(String str : list) {
 		System.out.println(str);
 		
@@ -81,3 +86,6 @@ System.out.println(itr.next());
 //The ArrayList class implements the List interface. It uses a dynamic array to store the duplicate element of different data types. 
 //The ArrayList class maintains the insertion order and is non-synchronized. 
 //The elements stored in the ArrayList class can be randomly accessed.
+
+
+

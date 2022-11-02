@@ -19,5 +19,8 @@ public class HierarchicalInheritance {
 		Cat c=new Cat();  
 		c.meow();  
 		c.eat();  
-		//c.bark();//C.T.Error  
+		
+		DDog d = new DDog();
+		
+		
 }}

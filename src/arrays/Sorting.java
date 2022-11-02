@@ -12,21 +12,19 @@ public class Sorting {
 		
 		for (int i = 0;i<marks.length;i++) {
 			
-	for (int j =i;j<marks.length;j++) {		
+	for (int j =i+1;j<marks.length;j++) {		
 			
 		if (marks[i] > marks[j]){
 		
 			temp = marks[i];
 			marks[i] = marks[j];
 			marks[j] = temp;
-			
-	
 		}
 
 	}}
 		
 for (int a : marks) {
-	System.out.println(marks);
+	System.out.print(a + " ");
 	
 }
 
