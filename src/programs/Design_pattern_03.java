@@ -3,19 +3,27 @@ package programs;
 public class Design_pattern_03 {
 
 	public static void main(String args[]) {
-	int rows = 10;
-	System.out.println("\nThe star pattern is... ");
-	for (int m = 1; m <= rows; m++)
-	{
-	for (int n=rows; n>m; n--)
-	{
-	System.out.print(" ");
-	}
-	for (int p=1; p<=(m * 2) -1; p++)
-	{
-	System.out.print("*");
-	}
-	System.out.println();
-	}
-	}
-}
+    { 
+		int i, j, row = 5;       
+		//Outer loop work for rows  
+		for (i=0; i<row; i++)   
+		{  
+		//inner loop work for space      
+		for (j=row-i; j>1; j--)   
+		{  
+		//prints space between two stars  
+		System.out.print(" ");   
+		}   
+		//inner loop for columns  
+		for (j=0; j<=i; j++ )   
+		{   
+		//prints star      
+		System.out.print("* ");   
+		}   
+		//throws the cursor in a new line after printing each line  
+		System.out.println();   
+		}   
+		}   
+	}}
+	
+

@@ -15,7 +15,7 @@ public static void main(String args[]) {
 	
 	str=str.replace(" ","");
 	
-	// convert string to character array
+
 	
 	
 	HashMap <Character,Integer> hp = new HashMap<>();

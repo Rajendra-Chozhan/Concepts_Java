@@ -57,9 +57,21 @@ public class ArraylistDemo {
 	// Iterating with for loop 
 	System.out.println(" Iterating with FOR loop ");
 	for (int i=0;i<list.size();i++) {
+		
+		if(list.contains("Vicky")) {
+			
 	System.out.println(list.get(i));
 	
-	} 
+		}
+		
+		else {
+			
+			list.add("Vicky");
+			System.out.println("The value is added");
+		}
+	
+	 }
+	System.out.println("The list already contains the value");
 	
 	System.out.println("====================================");
 //Iterating with Enhanced For loop
@@ -74,11 +86,16 @@ System.out.println("Iterating with Enhanced Forloop");
 	System.out.println("====================================");
 	
 	System.out.println("Iterator");
-Iterator <String> itr = list.iterator(); // Iterator is a method. that will give element one by one 
+Iterator <String> itr = list.iterator();
 
-System.out.println(itr.next());
-System.out.println(itr.next());
-System.out.println(itr.next());
+// Iterator is a method. that will give element one by one 
+
+while(itr.hasNext()) {
+	
+	System.out.println(itr.next());
+}
+
+
 
 	}
 }

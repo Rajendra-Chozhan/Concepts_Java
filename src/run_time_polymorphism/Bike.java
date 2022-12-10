@@ -12,7 +12,9 @@ class Vehicle{
 	  public static void main(String args[]){  
 	  //creating an instance of child class  
 	  Bike b =  new Bike();  
-	  //calling the method with child class instance  
+	  
+	  //calling the method with child class instance 
+	  
 	  b.run();  
 	  
 	  

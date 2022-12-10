@@ -14,8 +14,8 @@ public class ReverseWords {
 	    {
 	      String word = words[i];
 	      String reverseWord = "";
-	      for (int j = word.length() - 1; j >= 0; j--) {
-	        reverseWord = reverseWord + word.charAt(j);
+	      for (int j = 0; j < word.length(); j++) {
+	        reverseWord = word.charAt(j) + reverseWord;
 	      }
 	      reversedString = reversedString + reverseWord + " ";
 	    }

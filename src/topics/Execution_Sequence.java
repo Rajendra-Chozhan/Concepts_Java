@@ -14,9 +14,9 @@ public class Execution_Sequence {
 	   public static void main(String args[]){
 		   System.out.println("Main method1");
 		   
-		   demo();
+		   //demo();
 	      new Execution_Sequence();
-	      
+	      demo();
 	      System.out.println("Main method2");
 	   }
 
